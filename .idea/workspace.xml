@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e96af13-14f9-472f-b83e-5d1efb5e8d19" name="Changes" comment="" />
+    <list default="true" id="5e96af13-14f9-472f-b83e-5d1efb5e8d19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_GATEWAY/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API_GATEWAY/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipeserv/src/main/java/com/vidyudabhi/Recipeserv/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recipeserv/src/main/java/com/vidyudabhi/Recipeserv/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipeserv/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Recipeserv/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +64,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.RecipeservApplication.executor": "Run",
     "Gradle.API_GATEWAY [:ApiGatewayApplication.main()].executor": "Run",
     "Gradle.API_GATEWAY [dependencies].executor": "Run",
     "Gradle.Eureka_Server [:EurekaServerApplication.main()].executor": "Run",
