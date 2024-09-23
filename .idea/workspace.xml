@@ -7,7 +7,8 @@
     <list default="true" id="5e96af13-14f9-472f-b83e-5d1efb5e8d19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_GATEWAY/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API_GATEWAY/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recipeserv/src/main/java/com/vidyudabhi/Recipeserv/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recipeserv/src/main/java/com/vidyudabhi/Recipeserv/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipeserv/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Recipeserv/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipeserv/src/main/java/com/vidyudabhi/Recipeserv/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Recipeserv/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Recipeserv/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +26,17 @@
     <projectState path="$PROJECT_DIR$/Recipeserv">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Userserv">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/API_GATEWAY">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Userserv">
           <activation />
         </task>
         <projects_view>
@@ -44,6 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -62,23 +71,137 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ApiGatewayApplication.executor": "Run",
-    "Application.EurekaServerApplication.executor": "Run",
-    "Application.RecipeservApplication.executor": "Run",
-    "Gradle.API_GATEWAY [:ApiGatewayApplication.main()].executor": "Run",
-    "Gradle.API_GATEWAY [dependencies].executor": "Run",
-    "Gradle.Eureka_Server [:EurekaServerApplication.main()].executor": "Run",
-    "Gradle.Recipeserv [:RecipeservApplication.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecipeservApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.API_GATEWAY [:ApiGatewayApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.API_GATEWAY [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Eureka_Server [:EurekaServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Recipeserv [:RecipeservApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Userserv [:UserservApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Userserv [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Userserv [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Userserv [dependencyManagement].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Userserv.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vivek_amand/ZVAGHP/recipe-platform/Userserv&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.UserservApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vidyudabhi.API_GATEWAY.ApiGatewayApplication" />
+      <module name="API_GATEWAY.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vidyudabhi.API_GATEWAY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vidyudabhi.Eureka_Server.EurekaServerApplication" />
+      <module name="Eureka_Server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vidyudabhi.Eureka_Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserservApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vidyudabhi.Userserv.UserservApplication" />
+      <module name="Userserv.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vidyudabhi.Userserv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Userserv [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Userserv" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Userserv [dependencyManagement]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Userserv" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencyManagement" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Recipeserv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Recipeserv" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Gradle.Userserv [dependencyManagement]" />
+        <item itemvalue="Gradle.Userserv [dependencies]" />
+        <item itemvalue="Application.UserservApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
